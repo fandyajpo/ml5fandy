@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from "react";
 // @ts-ignore
 import * as ml5 from "ml5";
 import Webcam from "react-webcam";
-("use client");
 
 export default function Home() {
   const webcamRef = useRef<any>(null);
